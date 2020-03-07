@@ -11,7 +11,7 @@ public class Main {
             runner.join();
 
         }
-        for (int i = 5; i > 1; i--) {
+        for (int i = 4; i > 1; i--) {
             Runner runner =new Runner();
             runner.setName("Runner " + i);
             runner.setSs(i - 1);
